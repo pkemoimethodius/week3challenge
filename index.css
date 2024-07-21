@@ -1,0 +1,63 @@
+#mainheader{
+    align-items: center;
+    text-align: center;
+}
+.body{
+    background-color:silver;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.group{
+    position:relative;
+    height:30px;
+    overflow: hidden;
+    color: burlywood;
+    background-color:black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.group.text{
+    position:absolute;
+    margin: 5px O;
+    padding: 0;
+    width:max-content
+}
+#films{
+    background-color:skyblue;
+    border-radius: 15px;
+    float: left;
+}
+#movie-details{
+    border-image: auto;
+}
+.film_item{
+    float: right;
+    background-color: black;
+}
+.navbar{
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar ul li {
+    list-style-type: none;
+    color: rgb(38, 49, 41);
+    cursor: pointer;
+    display: inline-block;
+}
+.navbar ul li a{
+    color: green;
+    text-decoration: none;
+
+}
+.navbar ul li::after{
+    background: gold;
+    transition: 0.5s;
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
